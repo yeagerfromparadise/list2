@@ -1,0 +1,40 @@
+body{
+
+    font-size: large;
+}
+
+ol {
+    list-style-type: none;
+    padding-left: 0%;
+}
+
+ol li::before {
+    content: "\2666";
+    color: rgb(177, 0, 150);
+    display: inline-block;
+    width: 20px;
+}
+
+h4 {
+    height: 2px;
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+p {
+    height: 4px;
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+li {
+    height: 20px;
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
